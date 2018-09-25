@@ -1,2 +1,3 @@
-# functional-programming-training
+# Functional Programming Training material
+
 Collection of functional programming material
