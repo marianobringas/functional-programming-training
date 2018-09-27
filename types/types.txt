@@ -1,0 +1,53 @@
+(source: https://www.youtube.com/watch?v=UXBoiqRJ6DQ)
+
+# There are several dimensions/criteria to use when selecting a programming language:
+
+1) Typical:
+
+  - By company/team mandate
+  - By popularity
+  - By deadline to deliver a project
+  - By project goal
+  - By available tools
+  - By familiarity
+  - By recommendation of peers
+
+2) Not so often considered:
+
+  - Type System
+  - Immutability
+  - Avoidance of runtime errors
+  - Paradigm
+  - Verbosity
+  - Memory management
+
+#Type Systems:
+
+In all languages there are at least two components:
+
+- Data
+- Operations
+
+Not all available operations make sense to all kinds of data. If you try to use incompatible pieces of data for an operation, you will have a representation error.
+
+Programming languages use a type system to look at a program and determine if a representation error will happen or not
+
+## What are the possible strategies that a type system can use to handle representation errors?
+
+  - Strong typing:
+    * Generate a compile error
+    * Perform a type check before running the code
+    * Well defined error set
+
+  - Weak typing:
+    * Unpredictable runtime errors
+    * Try implicit conversions
+
+  - Static typing:
+    * Compiler can tag pieces of code to try to infer if the behavior will be valid or not (before program runs)
+
+  - Dynamic typing:
+    * Compiler/Interpreter generates code that will keep track of the data and its uses
+
+Usually more than one alternative is present (i.e. Java is static and somewhat strong, javascript is dynamic and weak)
+
