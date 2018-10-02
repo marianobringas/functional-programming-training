@@ -1,3 +1,5 @@
+Consider types as documentation as well as enforced business rules
+
 (source: https://www.youtube.com/watch?v=UXBoiqRJ6DQ)
 
 # There are several dimensions/criteria to use when selecting a programming language:
